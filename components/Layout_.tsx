@@ -4,14 +4,12 @@ interface Layout_Props {
   children: JSX.Element;
 }
 
-import {
-  
-} from "@fortawesome/free-solid-svg-icons";
+import {} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRecoilState } from "recoil";
+import Banner_ from "./Banner_";
 
 export const Layout_ = ({ children }: Layout_Props) => {
-  
   return (
     <div
       className={`flex min-h-screen w-full flex-col items-center justify-center`}
@@ -21,8 +19,10 @@ export const Layout_ = ({ children }: Layout_Props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-  {/* 👇️👇️👇️ Everything falls under this, as this is the layout file.. */} 
-  {children}
+      <Banner_/>
+
+      {/* 👇️👇️👇️ Everything falls under this, as this is the layout file.. */}
+      {children}
     </div>
   );
 };
