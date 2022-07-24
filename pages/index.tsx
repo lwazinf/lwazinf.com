@@ -7,14 +7,11 @@ const Home: NextPage = () => {
     <div className="flex flex-col items-center justify-center w-[1200px] min-h-screen relative">
       <LogoBG_/>
       <div
-        className={`absolute top-0 right-0 w-full h-screen flex flex-col justify-center items-end`}
+        className={`absolute top-0 right-0 w-full h-screen flex flex-col justify-center items-start opacity-70`}
       >
-        <div
-        className={`w-[300px] h-[400px] rounded-[4px] bg-black/5`}
-      >
-        
+      
       </div>
-      </div>
+      
     </div>
   );
 };
@@ -35,10 +32,13 @@ const LogoBG_ = ({}:LogoBG_Props) => {
       >
         <img
           src={`/assets/images/LwaziNF.png`}
-          className={`w-[200px] opacity-5 mb-2 mr-[10px]`}
+          className={`w-[200px] opacity-10 mb-2 mr-[0px]`}
         />
         <p className={`font-black text-[13px] text-center opacity-[15%] cursor-default`}>
-          Market || Build || Prosper
+          Market || Build
+        </p>
+        <p className={`font-black text-[25px] text-center opacity-[15%] cursor-default mt-[-8px]`}>
+          Prosper
         </p>
       </div>
    );
