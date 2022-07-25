@@ -18,11 +18,9 @@ export const Layout_ = ({ children }: Layout_Props) => {
         <title>LwaziNF</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Banner_/>
-
       {/* 👇️👇️👇️ Everything falls under this, as this is the layout file.. */}
       {children}
+      <Banner_/>
     </div>
   );
 };
