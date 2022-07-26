@@ -1,22 +1,24 @@
 import { faFacebook, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import AboutUs_ from "../components/AboutUs_";
+import Awards_ from "../components/Awards_";
 
 interface BonganiArc_Props {}
 
 const BonganiArc_ = ({}: BonganiArc_Props) => {
   return (
     <div
-      className={`flex flex-col items-center justify-center min-h-screen w-[1200px] relative top-2 rounded-[10px] overflow-hidden`}
+      className={`flex flex-col items-center justify-start min-h-screen w-[1200px] relative top-2 rounded-t-[10px] overflow-hidden z-[-2]`}
     >
       <div
-        className={`flex flex-col items-center justify-start w-full h-screen relative`}
+        className={`flex flex-col items-center justify-start w-full h-[700px] relative overflow-hidden rounded-b-[0px]`}
       >
         <div
           className={`absolute top-0 w-full h-screen overflow-hidden z-[-1]`}
         >
           <img
-            src={`https://images.pexels.com/photos/7061672/pexels-photo-7061672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
+            src={`/assets/images/GardenHouse.jpeg`}
             className={`w-full object-cover`}
           />
         </div>
@@ -28,7 +30,7 @@ const BonganiArc_ = ({}: BonganiArc_Props) => {
           className={`h-[90px] w-full bg-black z-[1] flex flex-row justify-start items-start pl-[30px] pr-[130px]`}
         >
           <div
-            className={`h-[90px] w-[100px] flex flex-col justify-start items-start`}
+            className={`h-[90px] w-[100px] flex flex-col justify-start items-start z-5`}
           >
             <img
               src={`/assets/images/Logo0.png`}
@@ -194,7 +196,10 @@ const BonganiArc_ = ({}: BonganiArc_Props) => {
             </div>
           </div>
         </div>
+        <div className={`absolute bottom-0 w-full h-[300px] bottomFade`}/>
       </div>
+      <Awards_/>
+      <AboutUs_/>
     </div>
   );
 };
