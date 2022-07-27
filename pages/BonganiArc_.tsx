@@ -47,11 +47,11 @@ const BonganiArc_ = ({}: BonganiArc_Props) => {
               ARC
             </p>
           </div>
-          <div className={`flex flex-row w-full h-full-400 mt-[50px] justify-center items-center`}>
-            <p className={`text-[30px] relative bottom-2 text-yellow-400 transition duration-500 hover:text-white cursor-pointer font-black mx-3 Oswald_`}>HOME</p>
-            <p className={`text-[30px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3 Oswald_`}>CONTACT</p>
-            <p className={`text-[30px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3 Oswald_`}>B'ARC</p>
-            <p className={`text-[30px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3 Oswald_`}>SERVICES</p>
+          <div className={`flex flex-row w-full h-full-400 mt-[60px] justify-center items-center`}>
+            <p className={`text-[20px] relative bottom-2 text-yellow-400 transition duration-500 hover:text-white cursor-pointer font-black mx-3`}>HOME</p>
+            <p className={`text-[20px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3`}>CONTACT</p>
+            <p className={`text-[20px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3`}>B'ARC</p>
+            <p className={`text-[20px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3`}>SERVICES</p>
           </div>
           
         </div>
