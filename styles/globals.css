@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Oswald:wght@200;300;600&family=Work+Sans:ital,wght@0,200;0,400;0,600;1,100&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -53,11 +54,16 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
   }
 
-  .bottomFadeWhite {
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(0,212,255,0) 57%);
-    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(0,212,255,0) 57%);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(0,212,255,0) 57%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#00d4ff",GradientType=1); 
+  .Oswald_ {
+    font-family: 'Oswald', sans-serif;
   }
+
+  .Word_ {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .Monts_ {
+    font-family: 'Montserrat', sans-serif;
+  }
+
 }

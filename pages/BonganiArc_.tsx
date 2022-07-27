@@ -37,21 +37,21 @@ const BonganiArc_ = ({}: BonganiArc_Props) => {
               className={`w-[100px] object-cover mb-[-20px]`}
             />
             <p
-              className={`text-[15px] w-[100px] min-h-[1px] text-center font-black text-white`}
+              className={`text-[15px] w-[100px] min-h-[1px] text-center font-black text-white Oswald_`}
             >
               Bongani
             </p>
             <p
-              className={`text-[10px] w-[100px] min-h-[1px] relative left-[20px] text-center top-3 font-black text-yellow-400`}
+              className={`text-[10px] w-[100px] min-h-[1px] relative left-[18px] text-center top-3 font-black text-yellow-400 Work_`}
             >
               ARC
             </p>
           </div>
           <div className={`flex flex-row w-full h-full-400 mt-[50px] justify-center items-center`}>
-            <p className={`text-[20px] text-yellow-400 transition duration-500 hover:text-white cursor-pointer font-black mx-3`}>HOME</p>
-            <p className={`text-[20px] text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3`}>CONTACT</p>
-            <p className={`text-[20px] text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3`}>B'ARC</p>
-            <p className={`text-[20px] text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3`}>SERVICES</p>
+            <p className={`text-[30px] relative bottom-2 text-yellow-400 transition duration-500 hover:text-white cursor-pointer font-black mx-3 Oswald_`}>HOME</p>
+            <p className={`text-[30px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3 Oswald_`}>CONTACT</p>
+            <p className={`text-[30px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3 Oswald_`}>B'ARC</p>
+            <p className={`text-[30px] relative bottom-2 text-white transition duration-500 hover:text-yellow-200 cursor-pointer font-black mx-3 Oswald_`}>SERVICES</p>
           </div>
           
         </div>
@@ -59,25 +59,25 @@ const BonganiArc_ = ({}: BonganiArc_Props) => {
           className={`flex flex-row items-center justify-center bg-yellow-400/30 w-[650px] mb-[90px] min-h-[1px] relative`}
         ></div>
         <div
-          className={`flex flex-row items-center justify-center w-full min-h-[20px] relative mb-[10px] pointer-events-none`}
+          className={`flex flex-row items-center justify-center w-full min-h-[20px] relative mb-[5px] pointer-events-none`}
         >
-          <p className={`text-[16px] font-normal text-white`}>Plumbing</p>
+          <p className={`text-[16px] font-normal text-white Work_`}>Plumbing</p>
           <div className={`w-[5px] h-[5px] rounded-[50%] bg-yellow-400 m-1`} />
-          <p className={`text-[16px] font-normal text-white`}>Landscaping</p>
+          <p className={`text-[16px] font-normal text-white Work_`}>Landscaping</p>
           <div className={`w-[5px] h-[5px] rounded-[50%] bg-yellow-400 m-1`} />
-          <p className={`text-[16px] font-normal text-white`}>Electrical</p>
+          <p className={`text-[16px] font-normal text-white Work_`}>Electrical</p>
           <div className={`w-[5px] h-[5px] rounded-[50%] bg-yellow-400 m-1`} />
-          <p className={`text-[16px] font-normal text-white`}>Architecture</p>
+          <p className={`text-[16px] font-normal text-white Work_`}>Architecture</p>
         </div>
         
         {/* 👇️👇️👇️ Main Header */}
         <div
           className={`flex flex-row items-center justify-center w-full min-h-[20px] relative pointer-events-none`}
         >
-          <p className={`text-[45px] font-light text-white m-1`}>
+          <p className={`text-[65px] font-light text-white m-1 Oswald_`}>
             Quality Workmanship.
           </p>
-          <p className={`text-[45px] font-bold text-yellow-400 m-1`}>
+          <p className={`text-[65px] font-bold text-yellow-400 m-1 Oswald_`}>
             Amazing Price.
           </p>
         </div>
