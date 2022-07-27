@@ -20,7 +20,7 @@ export const Layout_ = ({ children }: Layout_Props) => {
       </Head>
       {/* 👇️👇️👇️ Everything falls under this, as this is the layout file.. */}
       {children}
-      {/* <Banner_/> */}
+      <Banner_/>
     </div>
   );
 };
